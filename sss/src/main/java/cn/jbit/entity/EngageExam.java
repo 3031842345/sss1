@@ -3,7 +3,7 @@ package cn.jbit.entity;
 import java.sql.Timestamp;
 
 /**
- * EngageExam entity. @author MyEclipse Persistence Tools
+ * 试题登记表 EngageExam entity. @author MyEclipse Persistence Tools
  */
 
 public class EngageExam implements java.io.Serializable {
@@ -11,14 +11,14 @@ public class EngageExam implements java.io.Serializable {
 	// Fields
 
 	private Integer exaId;
-	private String examNumber;
-	private String majorKindId;
-	private String majorKindName;
-	private String majorId;
-	private String majorName;
-	private String register;
-	private Timestamp registTime;
-	private Short limiteTime;
+	private String examNumber;// 试卷编号
+	private String majorKindId;// 职位分类编号
+	private String majorKindName;// 职位分类名称
+	private String majorId;// 职位编号
+	private String majorName;// 职位名称
+	private String register;// 登记人
+	private Timestamp registTime;// 登记时间
+	private Short limiteTime;// 答题限时
 
 	// Constructors
 

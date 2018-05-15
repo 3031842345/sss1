@@ -3,7 +3,7 @@ package cn.jbit.entity;
 import java.sql.Timestamp;
 
 /**
- * EngageResume entity. @author MyEclipse Persistence Tools
+ * 简历管理 EngageResume entity. @author MyEclipse Persistence Tools
  */
 
 public class EngageResume implements java.io.Serializable {
@@ -11,56 +11,56 @@ public class EngageResume implements java.io.Serializable {
 	// Fields
 
 	private Integer resId;
-	private String humanName;
-	private String engageType;
-	private String humanAddress;
-	private String humanPostcode;
-	private String humanMajorKindId;
-	private String humanMajorKindName;
-	private String humanMajorId;
-	private String humanMajorName;
-	private String humanTelephone;
-	private String humanHomephone;
-	private String humanMobilephone;
-	private String humanEmail;
-	private String humanHobby;
-	private String humanSpecility;
-	private String humanSex;
-	private String humanReligion;
-	private String humanParty;
-	private String humanNationality;
-	private String humanRace;
-	private Timestamp humanBirthday;
-	private Integer humanAge;
-	private String humanEducatedDegree;
-	private Integer humanEducatedYears;
-	private String humanEducatedMajor;
-	private String humanCollege;
-	private String humanIdcare;
-	private String humanBirthplace;
-	private Double demandSalaryStandard;
-	private String humanHistoryRecords;
-	private String remark;
-	private String recomandation;
-	private String humanPicture;
-	private String attachmentName;
-	private Integer checkStatus;
-	private String register;
-	private Timestamp registTime;
-	private String checker;
-	private Timestamp checkTime;
-	private Integer interviewStatus;
-	private Float totalPoints;
-	private Integer testAmount;
-	private String testChecker;
-	private Timestamp testCheckTime;
-	private String passRegister;
-	private Timestamp passRegistTime;
-	private String passChecker;
-	private Timestamp passCheckTime;
-	private Integer passCheckStatus;
-	private String passCheckComment;
-	private String passPassComment;
+	private String humanName;//姓名
+	private String engageType;//招聘类型
+	private String humanAddress;//地址
+	private String humanPostcode;//邮编
+	private String humanMajorKindId;//职位分类编号
+	private String humanMajorKindName;//职位分类名称
+	private String humanMajorId;//职位编号
+	private String humanMajorName;//职位名称
+	private String humanTelephone;//电话号码
+	private String humanHomephone;//家庭电话
+	private String humanMobilephone;//手机
+	private String humanEmail;//Email
+	private String humanHobby;//兴趣爱好
+	private String humanSpecility;//特长
+	private String humanSex;//性别
+	private String humanReligion;//宗教信仰
+	private String humanParty;//政治面貌
+	private String humanNationality;//国籍
+	private String humanRace;//民族
+	private Timestamp humanBirthday;//生日
+	private Integer humanAge;//年龄
+	private String humanEducatedDegree;//教育程度
+	private Integer humanEducatedYears;//教育年限
+	private String humanEducatedMajor;//专业
+	private String humanCollege;//毕业学院
+	private String humanIdcare;//身份证号
+	private String humanBirthplace;//出生地
+	private Double demandSalaryStandard;//薪酬标准
+	private String humanHistoryRecords;//个人履历
+	private String remark;//备注
+	private String recomandation;//推荐意见
+	private String humanPicture;//照片
+	private String attachmentName;//档案附件
+	private Integer checkStatus;//复核状态
+	private String register;//登记人
+	private Timestamp registTime;//登记时间
+	private String checker;//复核人姓名
+	private Timestamp checkTime;//复核时间
+	private Integer interviewStatus;//面试状态
+	private Float totalPoints;//总分
+	private Integer testAmount;//考试次数
+	private String testChecker;//测试复核人
+	private Timestamp testCheckTime;//测试复核时间
+	private String passRegister;//通过登记人姓名
+	private Timestamp passRegistTime;//通过登记时间
+	private String passChecker;//通过复核姓名
+	private Timestamp passCheckTime;//通过复核时间
+	private Integer passCheckStatus;//通过的复核状态
+	private String passCheckComment;//录用的申请审核意见
+	private String passPassComment;//录用的申请审批意见
 
 	// Constructors
 

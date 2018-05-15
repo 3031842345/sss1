@@ -1,18 +1,18 @@
 package cn.jbit.entity;
 
 /**
- * ConfigPrimaryKey entity. @author MyEclipse Persistence Tools
+ * 关键字设置 
+ *ConfigPrimaryKey entity. @author MyEclipse Persistence Tools
  */
-
 public class ConfigPrimaryKey implements java.io.Serializable {
 
 	// Fields
 
 	private Integer prkId;
-	private String primaryKeyTable;
-	private String primaryKey;
-	private String keyName;
-	private Boolean primaryKeyStatus;
+	private String primaryKeyTable;//关键字所涉及的数据库表名
+	private String primaryKey;//关键字
+	private String keyName;//中文关键字
+	private Boolean primaryKeyStatus;//是否为关键字
 
 	// Constructors
 

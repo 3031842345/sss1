@@ -3,7 +3,7 @@ package cn.jbit.entity;
 import java.sql.Timestamp;
 
 /**
- * SalaryGrant entity. @author MyEclipse Persistence Tools
+ * 薪酬发放登记表 SalaryGrant entity. @author MyEclipse Persistence Tools
  */
 
 public class SalaryGrant implements java.io.Serializable {
@@ -11,22 +11,22 @@ public class SalaryGrant implements java.io.Serializable {
 	// Fields
 
 	private Integer sgrId;
-	private String salaryGrantId;
-	private String salaryStandardId;
-	private String firstKindId;
-	private String firstKindName;
-	private String secondKindId;
-	private String secondKindName;
-	private String thirdKindId;
-	private String thirdKindName;
-	private Integer humanAmount;
-	private Double salaryStandardSum;
-	private Double salaryPaidSum;
-	private String register;
-	private Timestamp registTime;
-	private String checker;
-	private Timestamp checkTime;
-	private Integer checkStatus;
+	private String salaryGrantId;// 薪酬发放编号
+	private String salaryStandardId;// 薪酬标准单编号
+	private String firstKindId;// 一级机构编号
+	private String firstKindName;// 一级机构名称
+	private String secondKindId;// 二级机构编号
+	private String secondKindName;// 二级机构名称
+	private String thirdKindId;// 三级机构编号
+	private String thirdKindName;// 三级机构名称
+	private Integer humanAmount;// 总人数
+	private Double salaryStandardSum;// 标准薪酬总金额
+	private Double salaryPaidSum;// 实发总金额
+	private String register;// 登记人
+	private Timestamp registTime;// 登记时间
+	private String checker;// 复核人
+	private Timestamp checkTime;// 复核时间
+	private Integer checkStatus;// 复核状态
 
 	// Constructors
 

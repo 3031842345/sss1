@@ -1,7 +1,7 @@
 package cn.jbit.entity;
 
 /**
- * SalaryStandardDetails entity. @author MyEclipse Persistence Tools
+ * 薪酬标准单详细信息 SalaryStandardDetails entity. @author MyEclipse Persistence Tools
  */
 
 public class SalaryStandardDetails implements java.io.Serializable {
@@ -9,11 +9,11 @@ public class SalaryStandardDetails implements java.io.Serializable {
 	// Fields
 
 	private Integer sdtId;
-	private String standardId;
-	private String standardName;
-	private Short itemId;
-	private String itemName;
-	private Double salary;
+	private String standardId;//薪酬标准单编号
+	private String standardName;//薪酬标准单名称
+	private Short itemId;//薪酬项目序号
+	private String itemName;//薪酬项目名称
+	private Double salary;//薪酬金额
 
 	// Constructors
 

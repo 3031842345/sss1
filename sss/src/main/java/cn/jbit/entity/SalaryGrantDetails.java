@@ -1,7 +1,7 @@
 package cn.jbit.entity;
 
 /**
- * SalaryGrantDetails entity. @author MyEclipse Persistence Tools
+ * 薪酬发放详细信息 SalaryGrantDetails entity. @author MyEclipse Persistence Tools
  */
 
 public class SalaryGrantDetails implements java.io.Serializable {
@@ -9,14 +9,14 @@ public class SalaryGrantDetails implements java.io.Serializable {
 	// Fields
 
 	private Integer grdId;
-	private String salaryGrantId;
-	private String humanId;
-	private String humanName;
-	private Double bounsSum;
-	private Double saleSum;
-	private Double deductSum;
-	private Double salaryStandardSum;
-	private Double salaryPaidSum;
+	private String salaryGrantId;// 薪酬发放编号
+	private String humanId;// 档案编号
+	private String humanName;// 姓名
+	private Double bounsSum;// 奖励金额
+	private Double saleSum;// 销售绩效金额
+	private Double deductSum;// 应扣金额
+	private Double salaryStandardSum;// 标准薪酬总额
+	private Double salaryPaidSum;// 实发薪酬总额
 
 	// Constructors
 

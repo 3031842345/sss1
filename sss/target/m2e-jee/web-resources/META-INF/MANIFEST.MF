@@ -1,5 +1,10 @@
 Manifest-Version: 1.0
-Built-By: 热枕
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-Title: springboot
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.eee
 Build-Jdk: 1.6.0_13
+Built-By: ￧ﾃﾭ￦ﾞﾕ
 Created-By: Maven Integration for Eclipse
+Implementation-URL: http://maven.apache.org
 

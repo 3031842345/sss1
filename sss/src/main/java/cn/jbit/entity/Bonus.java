@@ -3,7 +3,7 @@ package cn.jbit.entity;
 import java.sql.Timestamp;
 
 /**
- * Bonus entity. @author MyEclipse Persistence Tools
+ * 激励登记表 Bonus entity. @author MyEclipse Persistence Tools
  */
 
 public class Bonus implements java.io.Serializable {
@@ -11,21 +11,21 @@ public class Bonus implements java.io.Serializable {
 	// Fields
 
 	private Integer bonId;
-	private String majorKindId;
-	private String majorKindName;
-	private String majorId;
-	private String majorName;
-	private String humanId;
-	private String humanName;
-	private String bonusItem;
-	private Double bonusWorth;
-	private String bonusDegree;
-	private String remark;
-	private String register;
-	private String checker;
-	private Timestamp registTime;
-	private Timestamp checkTime;
-	private Integer checkStatus;
+	private String majorKindId;// 职位分类编号
+	private String majorKindName;// 职位分类名称
+	private String majorId;// 职位编号
+	private String majorName;// 职位名称
+	private String humanId;// 人力资源档案编号
+	private String humanName;// 姓名
+	private String bonusItem;// 激励项目名称
+	private Double bonusWorth;// 激励价值
+	private String bonusDegree;// 激励等级
+	private String remark;// 备注
+	private String register;// 登记人
+	private String checker;// 复核人
+	private Timestamp registTime;// 登记时间
+	private Timestamp checkTime;// 复核时间
+	private Integer checkStatus;// 复核状态
 
 	// Constructors
 

@@ -1,7 +1,7 @@
 package cn.jbit.entity;
 
 /**
- * EngageAnswerDetails entity. @author MyEclipse Persistence Tools
+ * 考试答题详细信息 EngageAnswerDetails entity. @author MyEclipse Persistence Tools
  */
 
 public class EngageAnswerDetails implements java.io.Serializable {
@@ -9,9 +9,9 @@ public class EngageAnswerDetails implements java.io.Serializable {
 	// Fields
 
 	private Integer andId;
-	private String answerNumber;
-	private Integer subjectId;
-	private String answer;
+	private String answerNumber;// 答案编号
+	private Integer subjectId;// 试题编号
+	private String answer;// 答题者答案
 
 	// Constructors
 

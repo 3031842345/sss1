@@ -1,6 +1,7 @@
 package cn.jbit.entity;
 
 /**
+ * 试题一级分类
  * ConfigQuestionFirstKind entity. @author MyEclipse Persistence Tools
  */
 
@@ -9,8 +10,8 @@ public class ConfigQuestionFirstKind implements java.io.Serializable {
 	// Fields
 
 	private Integer qfkId;
-	private String firstKindId;
-	private String firstKindName;
+	private String firstKindId;//试题一级分类编号
+	private String firstKindName;//试题一级分类名称
 
 	// Constructors
 

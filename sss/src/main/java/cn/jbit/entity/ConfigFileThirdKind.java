@@ -1,6 +1,7 @@
 package cn.jbit.entity;
 
 /**
+ * 三级机构设置
  * ConfigFileThirdKind entity. @author MyEclipse Persistence Tools
  */
 
@@ -9,14 +10,14 @@ public class ConfigFileThirdKind implements java.io.Serializable {
 	// Fields
 
 	private Integer ftkId;
-	private String firstKindId;
-	private String firstKindName;
-	private String secondKindId;
-	private String secondKindName;
-	private String thirdKindId;
-	private String thirdKindName;
-	private String thirdKindSaleId;
-	private String thirdKindIsRetail;
+	private String firstKindId;//一级机构编号
+	private String firstKindName;//一级机构名称
+	private String secondKindId;//二级机构编号
+	private String secondKindName;//二级机构名称
+	private String thirdKindId;//三级机构编号
+	private String thirdKindName;//三级机构名称
+	private String thirdKindSaleId;//三级机构销售责任人编号
+	private String thirdKindIsRetail;//三级机构是否为零售店
 
 	// Constructors
 

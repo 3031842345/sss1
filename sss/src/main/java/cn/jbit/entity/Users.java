@@ -2,16 +2,16 @@ package cn.jbit.entity;
 
 /**
  * Users entity. @author MyEclipse Persistence Tools
+ * 用户表
  */
-
 public class Users implements java.io.Serializable {
 
 	// Fields
 
-	private Integer UId;
-	private String UName;
-	private String UTrueName;
-	private String UPassword;
+	private Integer UId;//用户id
+	private String UName;//用户姓名
+	private String UTrueName;//真实姓名
+	private String UPassword;//密码
 
 	// Constructors
 

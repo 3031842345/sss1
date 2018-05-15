@@ -1,18 +1,18 @@
 package cn.jbit.entity;
 
 /**
+ * 一级机构设置
  * ConfigFileFirstKind entity. @author MyEclipse Persistence Tools
  */
-
 public class ConfigFileFirstKind implements java.io.Serializable {
 
 	// Fields
 
-	private Integer ffkId;
-	private String firstKindId;
-	private String firstKindName;
-	private String firstKindSalaryId;
-	private String firstKindSaleId;
+	private Integer ffkId;//
+	private String firstKindId;//一级机构编号
+	private String firstKindName;//一级结构名称
+	private String firstKindSalaryId;//一级机构薪酬发送责任
+	private String firstKindSaleId;//一级机构销售责任人缴费
 
 	// Constructors
 

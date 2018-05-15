@@ -3,7 +3,7 @@ package cn.jbit.entity;
 import java.sql.Timestamp;
 
 /**
- * SalaryStandard entity. @author MyEclipse Persistence Tools
+ * 薪酬标准基本信息表 SalaryStandard entity. @author MyEclipse Persistence Tools
  */
 
 public class SalaryStandard implements java.io.Serializable {
@@ -11,20 +11,20 @@ public class SalaryStandard implements java.io.Serializable {
 	// Fields
 
 	private Integer ssdId;
-	private String standardId;
-	private String standardName;
-	private String designer;
-	private String register;
-	private String checker;
-	private String changer;
-	private Timestamp registTime;
-	private Timestamp checkTime;
-	private Timestamp changeTime;
-	private Integer salarySum;
-	private Integer checkStatus;
-	private Integer changeStatus;
-	private Integer checkComment;
-	private String remark;
+	private String standardId;// 薪酬标准单编号
+	private String standardName;// 薪酬标准单名称
+	private String designer;// 制定者名称
+	private String register;// 登记人
+	private String checker;// 复核人
+	private String changer;// 变更人
+	private Timestamp registTime;// 登记时间
+	private Timestamp checkTime;// 复核时间
+	private Timestamp changeTime;// 变更时间
+	private Integer salarySum;// 薪酬总额
+	private Integer checkStatus;// 是否经过复核
+	private Integer changeStatus;// 更改状态
+	private Integer checkComment;// 复核意见
+	private String remark;// 备注
 
 	// Constructors
 

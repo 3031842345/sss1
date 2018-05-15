@@ -3,7 +3,7 @@ package cn.jbit.entity;
 import java.sql.Timestamp;
 
 /**
- * EngageMajorRelease entity. @author MyEclipse Persistence Tools
+ * 职位发表登记表 EngageMajorRelease entity. @author MyEclipse Persistence Tools
  */
 
 public class EngageMajorRelease implements java.io.Serializable {
@@ -11,25 +11,25 @@ public class EngageMajorRelease implements java.io.Serializable {
 	// Fields
 
 	private Integer mreId;
-	private String firstKindId;
-	private String firstKindName;
-	private String secondKindId;
-	private String secondKindName;
-	private String thirdKindId;
-	private String thirdKindName;
-	private String majorKindId;
-	private String majorKindName;
-	private String majorId;
-	private String majorName;
-	private Short humanAmount;
-	private String engageType;
-	private Timestamp deadline;
-	private String register;
-	private String changer;
-	private Timestamp registTime;
-	private Timestamp changeTime;
-	private String majorDescribe;
-	private String engageRequired;
+	private String firstKindId;// 一级机构编号
+	private String firstKindName;// 一级机构名称
+	private String secondKindId;// 二级机构编号
+	private String secondKindName;// 二级机构名称
+	private String thirdKindId;// 三级机构编号
+	private String thirdKindName;// 三级机构名称
+	private String majorKindId;// 职位分类编号
+	private String majorKindName;// 职位分类名称
+	private String majorId;// 职位编号
+	private String majorName;// 职位名称
+	private Short humanAmount;// 招聘人数
+	private String engageType;// 招聘类型
+	private Timestamp deadline;// 截至日期
+	private String register;// 登记人
+	private String changer;// 变更人
+	private Timestamp registTime;// 登记时间
+	private Timestamp changeTime;// 变更时间
+	private String majorDescribe;// 职位描述
+	private String engageRequired;// 招聘要求
 
 	// Constructors
 

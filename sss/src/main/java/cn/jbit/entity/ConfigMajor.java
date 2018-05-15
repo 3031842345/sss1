@@ -1,6 +1,7 @@
 package cn.jbit.entity;
 
 /**
+ * 职位设置
  * ConfigMajor entity. @author MyEclipse Persistence Tools
  */
 
@@ -9,11 +10,11 @@ public class ConfigMajor implements java.io.Serializable {
 	// Fields
 
 	private Integer makId;
-	private String majorKindId;
-	private String majorKindName;
-	private String majorId;
-	private String majorName;
-	private Short testAmount;
+	private String majorKindId;//职位分类编号
+	private String majorKindName;//职位分类名称
+	private String majorId;//职位编号
+	private String majorName;//职位名称
+	private Short testAmount;//题套数量(职位部门出的题目)
 
 	// Constructors
 

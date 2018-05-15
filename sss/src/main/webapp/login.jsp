@@ -37,33 +37,36 @@
         <![endif] -->
 <script type="text/javascript" src="js/jquery-1.12.4.js"></script>
 <!-- 包括所有bootstrap的js插件或者可以根据需要使用的js插件调用　-->
-<script src="js/bootstrap.min.js"></script></head>
+<script src="js/bootstrap.min.js"></script>
+</head>
 <body class="login">
 	<a class="hiddenanchor" id="signup"></a>
 	<a class="hiddenanchor" id="signin"></a>
 	<div id="login_content">
-	<h1>世纪人力交易平台</h1>
-	<form action="" method="post">
-	<div>
-		<input name="shezhizhidingshuxing" type="text" class="form-control" placeholder="用户名"
-			required="required" />
-	</div><br>
-	<div>
-		<input name="shezhizhidingshuxing" type="password" class="form-control" placeholder="密码"
-			required="required" />
-	</div><br>
-	<div>
-		<input class="btn btn-default submit" type="submit" value="Log in">
-		 <a class="reset_pass" href="#">Lost your password?</a>
-	</div>
-	</form>
-	<div class="clearfix"></div>
-	<div class="separator">
-		<p class="change_link">
-			New to site? <a href="#signup" class="to_register"> Create
-				Account </a>
-		</p>
-	</div>
+		<h1>世纪人力交易平台</h1>
+		<form action="" method="post">
+			<div>
+				<input name="shezhizhidingshuxing" type="text" class="form-control"
+					placeholder="用户名" required="required" />
+			</div>
+			<br>
+			<div>
+				<input name="shezhizhidingshuxing" type="password"
+					class="form-control" placeholder="密码" required="required" />
+			</div>
+			<br>
+			<div>
+				<input class="btn btn-default submit" type="submit" value="Log in">
+				<a class="reset_pass" href="#">Lost your password?</a>
+			</div>
+		</form>
+		<div class="clearfix"></div>
+		<div class="separator">
+			<p class="change_link">
+				New to site? <a href="#signup" class="to_register"> Create
+					Account </a>
+			</p>
+		</div>
 	</div>
 	<hr>
 </body>

@@ -3,7 +3,7 @@ package cn.jbit.entity;
 import java.sql.Timestamp;
 
 /**
- * EngageSubjects entity. @author MyEclipse Persistence Tools
+ * 试题题库登记表 EngageSubjects entity. @author MyEclipse Persistence Tools
  */
 
 public class EngageSubjects implements java.io.Serializable {
@@ -11,22 +11,22 @@ public class EngageSubjects implements java.io.Serializable {
 	// Fields
 
 	private Integer subId;
-	private String firstKindId;
-	private String firstKindName;
-	private String secondKindId;
-	private String secondKindName;
-	private String register;
-	private Timestamp registTime;
-	private String derivation;
-	private String content;
-	private String keyA;
-	private String keyB;
-	private String keyC;
-	private String keyD;
-	private String keyE;
-	private String correctKey;
-	private String changer;
-	private Timestamp changeTime;
+	private String firstKindId;// 试题一级编号
+	private String firstKindName;// 试题一级名称
+	private String secondKindId;// 试题二级编号
+	private String secondKindName;// 试题二级名称
+	private String register;// 登记人
+	private Timestamp registTime;// 登记时间
+	private String derivation;// 试题出处
+	private String content;// 题干
+	private String keyA;// 答案a
+	private String keyB;// 答案b
+	private String keyC;// 答案c
+	private String keyD;// 答案d
+	private String keyE;// 答案e
+	private String correctKey;// 正确答案
+	private String changer;// 变更人
+	private Timestamp changeTime;// 变更时间
 
 	// Constructors
 

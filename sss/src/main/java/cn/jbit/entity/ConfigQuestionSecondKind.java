@@ -1,6 +1,7 @@
 package cn.jbit.entity;
 
 /**
+ * 试题二级分类
  * ConfigQuestionSecondKind entity. @author MyEclipse Persistence Tools
  */
 
@@ -9,10 +10,10 @@ public class ConfigQuestionSecondKind implements java.io.Serializable {
 	// Fields
 
 	private Integer qskId;
-	private String firstKindId;
-	private String firstKindName;
-	private String secondKindId;
-	private String secondKindName;
+	private String firstKindId;//试题一级分类编号
+	private String firstKindName;//试题一级分类名称
+	private String secondKindId;//试题二级分类编号
+	private String secondKindName;//试题二级分类名称
 
 	// Constructors
 

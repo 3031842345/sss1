@@ -3,7 +3,7 @@ package cn.jbit.entity;
 import java.sql.Timestamp;
 
 /**
- * HumanFile entity. @author MyEclipse Persistence Tools
+ * 人力资源档案 HumanFile entity. @author MyEclipse Persistence Tools
  */
 
 public class HumanFile implements java.io.Serializable {
@@ -11,67 +11,67 @@ public class HumanFile implements java.io.Serializable {
 	// Fields
 
 	private Integer hufId;
-	private String humanId;
-	private String firstKindId;
-	private String firstKindName;
-	private String secondKindId;
-	private String secondKindName;
-	private String thirdKindId;
-	private String thirdKindName;
-	private String humanName;
-	private String humanAddress;
-	private String humanPostcode;
-	private String humanProDesignation;
-	private String humanMajorKindId;
-	private String humanMajorKindName;
-	private String humanMajorId;
-	private String hunmaMajorName;
-	private String humanTelephone;
-	private String humanMobilephone;
-	private String humanBank;
-	private String humanAccount;
-	private String humanQq;
-	private String humanEmail;
-	private String humanHobby;
-	private String humanSpeciality;
-	private String humanSex;
-	private String humanReligion;
-	private String humanParty;
-	private String humanNationality;
-	private String humanRace;
-	private Timestamp humanBirthday;
-	private String humanBirthplace;
-	private Integer humanAge;
-	private String humanEducatedDegree;
-	private Integer humanEducatedYears;
-	private String humanEducatedMajor;
-	private String humanSocietySecurityId;
-	private String humanIdCard;
-	private String remark;
-	private String salaryStandardId;
-	private String salaryStandardName;
-	private Double salarySum;
-	private Double demandSalaraySum;
-	private Double paidSalarySum;
-	private Integer majorChangeAmount;
-	private Integer bonusAmount;
-	private Integer trainingAmount;
-	private Integer fileChangAmount;
-	private String humanHistroyRecords;
-	private String humanFamilyMembership;
-	private String humanPicture;
-	private String attachmentName;
-	private Integer checkStatus;
-	private String register;
-	private String checker;
-	private String changer;
-	private Timestamp registTime;
-	private Timestamp checkTime;
-	private Timestamp changeTime;
-	private Timestamp lastlyChangeTime;
-	private Timestamp deleteTime;
-	private Timestamp recoveryTime;
-	private String humanFileStatus;
+	private String humanId;// 档案编号
+	private String firstKindId;// 一级机构编号
+	private String firstKindName;// 一级机构名称
+	private String secondKindId;// 二级机构编号
+	private String secondKindName;// 二级机构名称
+	private String thirdKindId;// 三级机构编号
+	private String thirdKindName;// 三级机构名称
+	private String humanName;// 姓名
+	private String humanAddress;// 地址
+	private String humanPostcode;// 邮政编号
+	private String humanProDesignation;// 职称
+	private String humanMajorKindId;// 职位分类编号
+	private String humanMajorKindName;// 职位分类名称
+	private String humanMajorId;// 职位编号
+	private String hunmaMajorName;// 职位名称
+	private String humanTelephone;// 电话
+	private String humanMobilephone;// 手机号码
+	private String humanBank;// 开户银行
+	private String humanAccount;// 银行账号
+	private String humanQq;// QQ号码
+	private String humanEmail;// 电子邮件
+	private String humanHobby;// 爱好
+	private String humanSpeciality;// 特长
+	private String humanSex;// 性别
+	private String humanReligion;// 宗教信仰
+	private String humanParty;// 政治面貌
+	private String humanNationality;// 国籍
+	private String humanRace;// 民族
+	private Timestamp humanBirthday;// 出生日期
+	private String humanBirthplace;// 出生地
+	private Integer humanAge;// 年龄
+	private String humanEducatedDegree;// 学历
+	private Integer humanEducatedYears;// 教育年限
+	private String humanEducatedMajor;// 学历专业
+	private String humanSocietySecurityId;// 社会保障号
+	private String humanIdCard;// 身份证号
+	private String remark;// 备注
+	private String salaryStandardId;// 薪酬标准编号
+	private String salaryStandardName;// 薪酬标准名称
+	private Double salarySum;// 基本薪酬总额
+	private Double demandSalaraySum;// 应发薪酬总额
+	private Double paidSalarySum;// 实发薪酬总额
+	private Integer majorChangeAmount;// 调动次数
+	private Integer bonusAmount;// 激励累计次数
+	private Integer trainingAmount;// 培训累计次数
+	private Integer fileChangAmount;// 档案变更累计次数
+	private String humanHistroyRecords;// 简历
+	private String humanFamilyMembership;// 家庭关系
+	private String humanPicture;// 相片
+	private String attachmentName;// 附件名称
+	private Integer checkStatus;// 复核状态
+	private String register;// 档案登记人
+	private String checker;// 档案复核人
+	private String changer;// 档案变更人
+	private Timestamp registTime;// 档案登记时间
+	private Timestamp checkTime;// 档案复核时间
+	private Timestamp changeTime;// 档案变更时间
+	private Timestamp lastlyChangeTime;// 档案最近更改时间
+	private Timestamp deleteTime;// 档案删除时间
+	private Timestamp recoveryTime;// 档案恢复时间
+	private String humanFileStatus;// 档案状态
 
 	// Constructors
 

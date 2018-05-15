@@ -1,6 +1,7 @@
 package cn.jbit.entity;
 
 /**
+ * 二级机构设置
  * ConfigFileSecondKind entity. @author MyEclipse Persistence Tools
  */
 
@@ -9,12 +10,12 @@ public class ConfigFileSecondKind implements java.io.Serializable {
 	// Fields
 
 	private Integer fskId;
-	private String firstKindId;
-	private String firstKindName;
-	private String secondKindId;
-	private String secondKindName;
-	private String secondSalaryId;
-	private String secondSaleId;
+	private String firstKindId;//一级机构编号
+	private String firstKindName;//一级机构名称
+	private String secondKindId;//二级机构编号
+	private String secondKindName;//二级机构名称
+	private String secondSalaryId;//二级机构薪酬发放责任人编号
+	private String secondSaleId;//二级机构销售责任人编号
 
 	// Constructors
 

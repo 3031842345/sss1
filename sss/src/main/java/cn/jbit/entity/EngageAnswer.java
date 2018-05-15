@@ -3,7 +3,7 @@ package cn.jbit.entity;
 import java.sql.Timestamp;
 
 /**
- * EngageAnswer entity. @author MyEclipse Persistence Tools
+ * 考试答题登记表 EngageAnswer entity. @author MyEclipse Persistence Tools
  */
 
 public class EngageAnswer implements java.io.Serializable {
@@ -11,19 +11,19 @@ public class EngageAnswer implements java.io.Serializable {
 	// Fields
 
 	private Integer ansId;
-	private String answerNumber;
-	private String examNumber;
-	private Integer resumeId;
-	private Integer interviewId;
-	private String humanName;
-	private String humanIdcard;
-	private String majorKindId;
-	private String majorKindName;
-	private String majorId;
-	private String majorName;
-	private Timestamp testTime;
-	private String useTime;
-	private Double totalPoint;
+	private String answerNumber;// 答题编号
+	private String examNumber;// 试卷编号
+	private Integer resumeId;// 简历编号
+	private Integer interviewId;// 面试编号
+	private String humanName;// 姓名
+	private String humanIdcard;// 身份证号
+	private String majorKindId;// 职位分类编号
+	private String majorKindName;// 职位分类名称
+	private String majorId;// 职位编号
+	private String majorName;// 职位名称
+	private Timestamp testTime;// 测试时间
+	private String useTime;// 用时
+	private Double totalPoint;// 总分
 
 	// Constructors
 

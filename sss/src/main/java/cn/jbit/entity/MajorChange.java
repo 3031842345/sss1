@@ -3,7 +3,7 @@ package cn.jbit.entity;
 import java.sql.Timestamp;
 
 /**
- * MajorChange entity. @author MyEclipse Persistence Tools
+ * 职位调动表 MajorChange entity. @author MyEclipse Persistence Tools
  */
 
 public class MajorChange implements java.io.Serializable {
@@ -11,41 +11,41 @@ public class MajorChange implements java.io.Serializable {
 	// Fields
 
 	private Integer mchId;
-	private String firstKindId;
-	private String firstKindName;
-	private String secondKindId;
-	private String secondKindName;
-	private String thirdKindId;
-	private String thirdKindName;
-	private String majorKindId;
-	private String majorKindName;
-	private String majorId;
-	private String majorName;
-	private String newFirstKindId;
-	private String newFirstKindName;
-	private String newSecondKindId;
-	private String newSecondKindName;
-	private String newThirdKindId;
-	private String newThirdKindName;
-	private String newMajorKindId;
-	private String newMajorKindName;
-	private String newMajorId;
-	private String newMajorName;
-	private String humanId;
-	private String humanName;
-	private String salaryStandardId;
-	private String salaryStandardName;
-	private Double salarySum;
-	private String newSalaryStandardId;
-	private String newSalaryStandardName;
-	private Double newSalarySum;
-	private String changeReason;
-	private String checkReason;
-	private Integer checkStatus;
-	private String register;
-	private String checker;
-	private Timestamp registTime;
-	private Timestamp checkTime;
+	private String firstKindId;// 一级机构编号
+	private String firstKindName;// 一级机构名称
+	private String secondKindId;// 二级机构编号
+	private String secondKindName;// 二级机构名称
+	private String thirdKindId;// 三级机构编号
+	private String thirdKindName;// 三级机构名称
+	private String majorKindId;// 职位分类编号
+	private String majorKindName;// 职位分类名称
+	private String majorId;// 职位编号
+	private String majorName;// 职位名称
+	private String newFirstKindId;// 新一级机构编号
+	private String newFirstKindName;// 新一级机构名称
+	private String newSecondKindId;// 新二级机构编号
+	private String newSecondKindName;// 新二级机构名称
+	private String newThirdKindId;// 新三级机构编号
+	private String newThirdKindName;// 新三级机构名称
+	private String newMajorKindId;// 新职位分类编号
+	private String newMajorKindName;// 新职位分类名称
+	private String newMajorId;// 新职位编号
+	private String newMajorName;// 新职位编号名称
+	private String humanId;// 人力资源档案编号
+	private String humanName;// 姓名
+	private String salaryStandardId;// 薪酬标准编号
+	private String salaryStandardName;// 薪酬标准名称
+	private Double salarySum;// 薪酬总额
+	private String newSalaryStandardId;// 新薪酬标准编号
+	private String newSalaryStandardName;// 新薪酬标准名称
+	private Double newSalarySum;// 新薪酬总额
+	private String changeReason;// 调动原因
+	private String checkReason;// 审核通过意见
+	private Integer checkStatus;// 复核通过状态
+	private String register;// 登记人
+	private String checker;// 复核人
+	private Timestamp registTime;// 登记时间
+	private Timestamp checkTime;// 复核时间
 
 	// Constructors
 

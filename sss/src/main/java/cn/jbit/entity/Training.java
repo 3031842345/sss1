@@ -3,7 +3,7 @@ package cn.jbit.entity;
 import java.sql.Timestamp;
 
 /**
- * Training entity. @author MyEclipse Persistence Tools
+ * 培训登记表 Training entity. @author MyEclipse Persistence Tools
  */
 
 public class Training implements java.io.Serializable {
@@ -11,22 +11,22 @@ public class Training implements java.io.Serializable {
 	// Fields
 
 	private Integer traId;
-	private String majorKindId;
-	private String majorKindName;
-	private String majorId;
-	private String majorName;
-	private String humanId;
-	private String humanName;
-	private String trainingItem;
-	private Timestamp trainingTime;
-	private Integer trainingHour;
-	private String trainingDegree;
-	private String register;
-	private String checker;
-	private Timestamp registTime;
-	private Timestamp checkTime;
-	private Integer checkstatus;
-	private String remark;
+	private String majorKindId;// 职位分类编号
+	private String majorKindName;// 职位分类名称
+	private String majorId;// 职位编号
+	private String majorName;// 职位名称
+	private String humanId;// 人力资源档案编号
+	private String humanName;// 姓名
+	private String trainingItem;// 培训项目
+	private Timestamp trainingTime;// 培训时间
+	private Integer trainingHour;// 培训课时
+	private String trainingDegree;// 培训成绩等级
+	private String register;// 登记人
+	private String checker;// 复核人
+	private Timestamp registTime;// 登记时间
+	private Timestamp checkTime;// 复核时间
+	private Integer checkstatus;// 培训复核状态
+	private String remark;// 备注
 
 	// Constructors
 

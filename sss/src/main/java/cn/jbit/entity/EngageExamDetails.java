@@ -1,7 +1,7 @@
 package cn.jbit.entity;
 
 /**
- * EngageExamDetails entity. @author MyEclipse Persistence Tools
+ * 试卷详细信息 EngageExamDetails entity. @author MyEclipse Persistence Tools
  */
 
 public class EngageExamDetails implements java.io.Serializable {
@@ -9,12 +9,12 @@ public class EngageExamDetails implements java.io.Serializable {
 	// Fields
 
 	private Integer exdId;
-	private String examNumber;
-	private String firstKindId;
-	private String firstKindName;
-	private String secondKindId;
-	private String secondKindName;
-	private Short questionAmount;
+	private String examNumber;// 试卷编号
+	private String firstKindId;// 试题一级分类编号
+	private String firstKindName;// 试题一级分类名称
+	private String secondKindId;// 试题二级分类编号
+	private String secondKindName;// 试题二级分类名称
+	private Short questionAmount;// 出题数量
 
 	// Constructors
 

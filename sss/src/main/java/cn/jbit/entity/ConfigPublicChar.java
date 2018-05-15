@@ -1,16 +1,16 @@
 package cn.jbit.entity;
 
 /**
+ * 公共字段
  * ConfigPublicChar entity. @author MyEclipse Persistence Tools
  */
-
 public class ConfigPublicChar implements java.io.Serializable {
 
 	// Fields
 
 	private Integer pbcId;
-	private String attributeKind;
-	private String attributeName;
+	private String attributeKind;//属性的种类
+	private String attributeName;//属性的名称
 
 	// Constructors
 
