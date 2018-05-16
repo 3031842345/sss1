@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"     
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.jbit.dao.login.LoginDao">
+	<resultMap type="cn.jbit.entity.Users" id="ii">
+		<result column="u_id" property="UId"/>
+		<result column="u_name" property="UName"/>
+		<result column="u_true_name" property="UTrueName"/>
+		<result column="u_password" property="UPassword"/>
+	</resultMap>
+	<select id="Login" parameterType="cn.jbit.entity.Users" resultMap="ii">
+		SELECT * FROM users WHERE u_name=#{UName} AND u_password=#{UPassword}
+	</select>
+</mapper>

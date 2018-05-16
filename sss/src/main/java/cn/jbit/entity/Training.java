@@ -9,7 +9,6 @@ import java.sql.Timestamp;
 public class Training implements java.io.Serializable {
 
 	// Fields
-
 	private Integer traId;
 	private String majorKindId;// 职位分类编号
 	private String majorKindName;// 职位分类名称

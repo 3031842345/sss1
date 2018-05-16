@@ -13,16 +13,9 @@ public class LoginServiceImpl implements LoginService {
 	private LoginDao loginDao;
 
 	@Override
-	public Users Login(String name, String pass) {
-
-		return loginDao.Login(name, pass);
+	public Users Login(Users user) {
+		return loginDao.Login(user);
 	}
 
-	public LoginDao getLoginDao() {
-		return loginDao;
-	}
-
-	public void setLoginDao(LoginDao loginDao) {
-		this.loginDao = loginDao;
-	}
+	
 }

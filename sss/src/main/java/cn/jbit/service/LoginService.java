@@ -4,6 +4,6 @@ import cn.jbit.entity.Users;
 
 public interface LoginService {
 	
-	public Users Login(String name,String pass);
+	public Users Login(Users user);
 
 }

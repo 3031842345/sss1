@@ -16,5 +16,4 @@ public class Test {
 		SpringApplication.run(Test.class, args);
 		System.out.println("启动成功！");
 	}
-
 }
