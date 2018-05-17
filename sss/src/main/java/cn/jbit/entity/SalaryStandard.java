@@ -1,4 +1,4 @@
-package cn.jbit.entity;
+ package cn.jbit.entity;
 
 import java.sql.Timestamp;
 

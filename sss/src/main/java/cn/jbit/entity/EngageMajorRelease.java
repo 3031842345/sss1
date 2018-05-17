@@ -9,7 +9,6 @@ import java.sql.Timestamp;
 public class EngageMajorRelease implements java.io.Serializable {
 
 	// Fields
-
 	private Integer mreId;
 	private String firstKindId;// 一级机构编号
 	private String firstKindName;// 一级机构名称

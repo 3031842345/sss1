@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 @ComponentScan(basePackages = "cn.jbit.*")
 @MapperScan(value = "cn.jbit.dao")
 public class Test {
-
 	public static void main(String[] args) {
 		SpringApplication.run(Test.class, args);
 		System.out.println("启动成功！");

@@ -28,8 +28,8 @@ public class MyController {
 	public String login(Users user, Model model) {
 		user = loginService.Login(user);
 		if (user != null) {
-			return "testSuccess";
+			return "resumeManage";
 		}
-		return "fail";
+		return "test/fail";
 	}
 }
