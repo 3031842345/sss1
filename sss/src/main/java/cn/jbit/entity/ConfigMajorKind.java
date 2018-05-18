@@ -1,17 +1,15 @@
 package cn.jbit.entity;
 
 /**
- * 职位分类设置
- * ConfigMajorKind entity. @author MyEclipse Persistence Tools
+ * 职位分类设置 ConfigMajorKind entity. @author MyEclipse Persistence Tools
  */
 
 public class ConfigMajorKind implements java.io.Serializable {
 
 	// Fields
-
 	private Integer mfkId;
-	private String majorKindId;///职位种类编号
-	private String majorKindName;//职位种类名称
+	private String majorKindId;// /职位种类编号
+	private String majorKindName;// 职位种类名称
 
 	// Constructors
 

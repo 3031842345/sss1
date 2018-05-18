@@ -1,4 +1,5 @@
 package cn.jbit.controller;
+
 import javax.annotation.Resource;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -11,24 +12,24 @@ import cn.jbit.entity.Users;
 import cn.jbit.service.LoginServiceImpl;
 
 @Controller
-@RequestMapping(value="/user")
+@RequestMapping(value = "/user")
 public class MyController {
-	
+
 	@Resource
 	private LoginServiceImpl loginService;
-	
-	@GetMapping(value="/log")
-	public ModelAndView login(){		
+
+	@GetMapping(value = "/log")
+	public ModelAndView login() {
 		ModelAndView mv = null;
 		mv = new ModelAndView("login");
-		return mv;		
+		return mv;
 	}
 
-	@RequestMapping(value="/login.html",method=RequestMethod.POST)
+	@RequestMapping(value = "/login.html", method = RequestMethod.POST)
 	public String login(Users user, Model model) {
 		user = loginService.Login(user);
 		if (user != null) {
-			return "resumeManage";
+			return null;
 		}
 		return "test/fail";
 	}
